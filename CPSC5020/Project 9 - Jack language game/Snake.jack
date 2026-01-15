@@ -1,0 +1,150 @@
+class Snake {
+	field int x, y;		// top left corner of the square
+	field int size;
+	
+	constructor Snake new(int Ax, int Ay) {
+		let x = Ax;
+		let y = Ay;
+		let size = 30;		// default snake size
+		do draw();
+		return this;		// constructors must return this
+	}
+	
+	method void draw() {
+		do Screen.setColor(true);		// sets active color to black
+		do Screen.drawRectangle(x, y, x + size, y + size);		// creates a square at the current (x,y)
+		return;
+	}
+
+	method void erase() {
+		do Screen.setColor(false);		// sets active color to white
+		do Screen.drawRectangle(x, y, x + size, y + size);		// erases the square at the current (x,y)
+		return;
+	}
+	
+	method void moveUp() {
+		if (y > 10) {		// if under the roof
+			do Screen.setColor(false);
+			do Screen.drawRectangle(x, (y + size) - 1, x + size, y + size);		// removes the bottom line of the square
+			let y = y - 1;
+			do Screen.setColor(true);
+			do Screen.drawRectangle(x, y, x + size, y + 1);		// adds a single line to the top of the square
+		}
+		if (y = 11) {
+			do gameOver();
+		}
+		return;
+	}
+	
+	method void moveDown() {
+		if (y < 216) {		// if above the floor
+			do Screen.setColor(false);
+			do Screen.drawRectangle(x, y, x + size, y + 1);
+			let y = y + 1;
+			do Screen.setColor(true);
+			do Screen.drawRectangle(x, (y + size) - 1, x + size, y + size);
+		}
+		if (y = 215) {
+			do gameOver();
+		}
+		return;
+	}
+	
+	method void moveLeft() {
+		if (x > 10) {
+			do Screen.setColor(false);
+			do Screen.drawRectangle((x + size) - 1, y, x + size, y + size);
+			let x = x - 1;
+			do Screen.setColor(true);
+			do Screen.drawRectangle(x, y, x + 1, y + size);
+		}
+		if (x = 11) {
+			do gameOver();
+		}
+		return;
+	}
+	
+	method void moveRight() {
+		if (x < 472) {
+			do Screen.setColor(false);
+			do Screen.drawRectangle(x, y, x + 1, y + size);
+			let x = x + 1;
+			do Screen.setColor(true);
+			do Screen.drawRectangle((x + size) - 1, y, x + size, y + size);
+		}
+		if (x = 471) {
+			do gameOver();
+		}
+		return;
+	}
+
+	method void gameOver() {
+		do erase();
+		var int drawX, drawY;
+		let drawX = 10;
+		let drawY = 50;
+
+		// G
+        	do Screen.drawRectangle(x, y, x+10, y+10);  // Top horizontal
+        	do Screen.drawRectangle(x, y, x+5, y+30);   // Left vertical
+        	do Screen.drawRectangle(x+5, y+15, x+10, y+20); // Middle horizontal
+       		do Screen.drawRectangle(x, y+20, x+10, y+30);  // Bottom horizontal
+        	let x = x + 30;
+
+        	// A
+        	do Screen.drawRectangle(x, y, x+10, y+10);  // Top horizontal
+        	do Screen.drawRectangle(x+10, y, x+10, y+20); // Right vertical
+        	do Screen.drawRectangle(x, y, x, y+20);  // Left vertical
+        	do Screen.drawRectangle(x+5, y+10, x+5, y+20); // Middle vertical
+        	let x = x + 30;
+
+        	// M
+        	do Screen.drawRectangle(x, y, x+10, y+10); // Top horizontal
+        	do Screen.drawRectangle(x, y, x+10, y+20); // Left vertical
+        	do Screen.drawRectangle(x+10, y, x+10, y+20); // Right vertical
+        	do Screen.drawRectangle(x+5, y+10, x+10, y+10); // Middle diagonal
+        	let x = x + 30;
+
+        	// E
+        	do Screen.drawRectangle(x, y, x+10, y+10); // Top horizontal
+        	do Screen.drawRectangle(x, y, x+5, y+20); // Left vertical
+        	do Screen.drawRectangle(x, y+10, x+10, y+10); // Middle horizontal
+        	do Screen.drawRectangle(x, y+20, x+10, y+20); // Bottom horizontal
+        	let x = x + 30;
+
+        	// Space
+        	let x = x + 10; // Space between "GAME" and "OVER"
+
+        	// O
+        	do Screen.drawRectangle(x, y, x+10, y+10); // Top horizontal
+        	do Screen.drawRectangle(x, y, x, y+20); // Left vertical
+        	do Screen.drawRectangle(x+10, y, x+10, y+20); // Right vertical
+        	do Screen.drawRectangle(x, y+20, x+10, y+20); // Bottom horizontal
+        	let x = x + 30;
+
+        	// V
+        	do Screen.drawRectangle(x, y, x+5, y+20); // Left diagonal
+        	do Screen.drawRectangle(x+10, y, x+5, y+20); // Right diagonal
+        	let x = x + 30;
+
+        	// E
+        	do Screen.drawRectangle(x, y, x+10, y+10); // Top horizontal
+        	do Screen.drawRectangle(x, y, x+5, y+20); // Left vertical
+        	do Screen.drawRectangle(x, y+10, x+10, y+10); // Middle horizontal
+        	do Screen.drawRectangle(x, y+20, x+10, y+20); // Bottom horizontal
+        	let x = x + 30;
+
+        	// R
+        	do Screen.drawRectangle(x, y, x+10, y+10);  // Top horizontal
+        	do Screen.drawRectangle(x, y, x+5, y+20);   // Left vertical
+        	do Screen.drawRectangle(x, y+10, x+10, y+10); // Middle horizontal
+        	do Screen.drawRectangle(x+5, y+10, x+10, y+20); // Right vertical
+
+		return;
+	}
+	
+	method void dispose() {
+		do Memory.deAlloc(this);
+		return;
+	}
+}

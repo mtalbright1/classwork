@@ -1,0 +1,88 @@
+class String {
+	field Array str;
+	field int length;
+
+	constructor String new(int maxLength) {
+		let str = Array.new(maxLength);
+		let length = 0;
+		return this;		// constructors must return this
+	}
+
+	method void dispose() {
+		do str.dispose();		// calls the Array method dispose
+		return;
+	}
+
+	method int length() {		// returns number of characters, not maximum space allocated
+		return length;
+	}
+
+	method char charAt(int j) {
+		if (j < length) {
+			return str[j];
+		}
+		else {
+			return 0;
+		}
+	}
+
+	method void setCharAt(int j, char c) {
+		if (j < length) {
+			let str[j] = c;
+		}
+		return;
+	}
+
+	method String appendChar(char c) {
+		let str[length] = c;
+		let length = length + 1;
+		return str;
+	}
+
+	method void eraseLastChar() {
+		if (length > 0) {
+			let str[length] = 0;
+			let length = length - 1;
+		}
+		return;
+	}
+
+	method int intValue() {		// char of 48 is 0 and 57 is 9
+		var int value, i, digit;
+		let digit = 1;
+		let i = 0;
+
+		while (i < length) {
+			let digit = Math.pow(digit, i + 1);		// 1 on the first loop, 10 on the second
+			let value = value + (digit * (str[length - i] - 48));
+			let i = i + 1;
+		}
+		return value;
+	}
+
+	method void setInt(int j) {
+		var int rightDigit;
+
+		while (~(j = 0)) {
+			let rightDigit = j - (j / 10) * 10;		// modulo 10
+			do str.append(rightDigit + 48);		// adjusts to ascii
+			let j = j / 10;
+		}
+		return;
+	}
+
+	function char backSpace() {
+		return 128;
+		return;
+	}
+
+	function char doubleQuote() {
+		return 129;
+		return;
+	}
+
+	function char newLine() {
+		return 34;
+		return;
+	}
+}

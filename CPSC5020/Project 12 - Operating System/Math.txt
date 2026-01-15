@@ -1,0 +1,160 @@
+Class Math {
+	static Array bitArray;
+
+	function void init() {		// initializes the library
+		let bitArray = Array.new(16);
+        	let bitArray[0] = 1;
+        	let bitArray[1] = 2;
+        	let bitArray[2] = 4;
+        	let bitArray[3] = 8;
+        	let bitArray[4] = 16;
+        	let bitArray[5] = 32;
+        	let bitArray[6] = 64;
+        	let bitArray[7] = 128;
+        	let bitArray[8] = 256;
+        	let bitArray[9] = 512;
+        	let bitArray[10] = 1024;
+        	let bitArray[11] = 2048;
+        	let bitArray[12] = 4096;
+        	let bitArray[13] = 8192;
+        	let bitArray[14] = 16384;
+        	let bitArray[15] = 16384 + 16384;
+        	return;
+    	}
+
+	function boolean bit(int x, int j) {		// Returns if jth bit of x is 1
+        	return ~((x & bitArray[j]) = 0);
+    	}
+
+	function int abs(int x) {
+		if (x < 0) {
+			let x = Math.multiply(x, -1);
+		}
+		return x;
+	}
+
+	function int multiply(int x, int y) {
+		var int result, a, b, negativeFlag;
+		let result = 0;
+		let a = x;
+		let b = y;
+		let negativeFlag = 0;		// Track if result should be negative
+
+		
+		if (a < 0) {
+			let a = Math.abs(a); 		 // Convert a to positive
+			let negativeFlag = 1 - negativeFlag; 	 // Flip the sign flag
+		}
+
+		if (b < 0) {
+			let b = Math.abs(b);  		// Convert b to positive
+			let negativeFlag = 1 - negativeFlag;  	// Flip the sign flag
+		}
+
+		while (b > 0) {		// Perform the multiplication with absolute values of a and b
+			if ((b & 1) = 1) {
+				let result = result + a;
+			}
+			let a = a + a;   // a << 1
+			let b = b / 2;   // b >> 1
+		}
+		if (negativeFlag = 1) {		// If the result should be negative...
+			let result = Math.multiply(result, -1);
+		}
+		return result;
+	}
+
+	function int divide(int x, int y) {
+		var int doubleY, q, doubleQY, remainder, negativeFlag, result;
+		let negativeFlag = 0;		// negativeFlag starts at false
+
+		if (y > x) {
+			return 0;
+		}
+		if (y = 0) {
+			return 0;
+		}
+		if (x < 0) {
+			let x = Math.abs(x); 		 // Convert a to positive
+			let negativeFlag = 1 - negativeFlag; 	 // Flip the sign flag
+		}
+		if (y < 0) {
+			let y = Math.abs(y);  		// Convert b to positive
+			let negativeFlag = 1 - negativeFlag;  	// Flip the sign flag
+		}
+
+		let doubleY = Math.multiply(y, y);
+		let q = Math.divide(x, doubleY);
+
+		let doubleQY = Math.multiply(2, Math.multiply(q, y));
+		let remainder = x - doubleQY;
+
+		if (remainder < y) {
+			let result = Math.multiply(2, q);
+		}
+		else {
+			let result = Math.multiply(2, q) + 1;
+		}
+
+		if (negativeFlag = 1) {
+			let result = Math.multiply(result, -1);
+		}
+		return result;
+	}
+
+	function int min(int x, int y) {
+		if (x < y) {
+			return x;
+		}
+		return y;
+	}
+
+	function int max(int x, int y) {
+		if (x > y) {
+			return x;
+		}
+		return y;
+	}
+
+	function int sqrt(int x) {
+		var int low, high, mid, midSquared;
+
+		if (x = 0) {
+			return 0;
+		}
+
+		let low = 1;
+		let high = x;
+
+		while (low <= high) {
+			let mid = Math.divide(low + high, 2);
+			let midSquared = Math.multiply(mid, mid);
+
+			if (midSquared = x) {
+ 				return mid;
+			}
+			else {
+				if (midSquared < x) {
+					let low = mid + 1;
+				}
+				else {
+					let high = mid - 1;
+				}
+			}
+		}
+		return high;
+	}
+
+	function int pow(int base, int exponent) {		// I added this to make Screen.drawPixel easier
+		var int result, i;
+		let result = 1;
+		let i = 0;
+
+		while (i < exponent) {
+			let result = Math.multiply(result, base);
+			let i = i + 1;
+		}
+
+		return result;
+	}
+}

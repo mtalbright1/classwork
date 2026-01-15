@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA28069-0998-4448-B9BB-ADDC90EACA12}|Homework9.3\\Homework9.3.vcxproj|C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.3\\Homework9.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CA28069-0998-4448-B9BB-ADDC90EACA12}|Homework9.3\\Homework9.3.vcxproj|solutionrelative:Homework9.3\\Homework9.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8D465F-3043-469C-A00E-904D4DF7D623}|Homework9.2\\Homework9.2.vcxproj|C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.2\\Homework9.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E8D465F-3043-469C-A00E-904D4DF7D623}|Homework9.2\\Homework9.2.vcxproj|solutionrelative:Homework9.2\\Homework9.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Homework9.2.cpp",
+              "DocumentMoniker": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.2\\Homework9.2.cpp",
+              "RelativeDocumentMoniker": "Homework9.2\\Homework9.2.cpp",
+              "ToolTip": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.2\\Homework9.2.cpp",
+              "RelativeToolTip": "Homework9.2\\Homework9.2.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T15:21:32.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Homework9.3.cpp",
+              "DocumentMoniker": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.3\\Homework9.3.cpp",
+              "RelativeDocumentMoniker": "Homework9.3\\Homework9.3.cpp",
+              "ToolTip": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework9\\Homework9.3\\Homework9.3.cpp",
+              "RelativeToolTip": "Homework9.3\\Homework9.3.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T21:41:11.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

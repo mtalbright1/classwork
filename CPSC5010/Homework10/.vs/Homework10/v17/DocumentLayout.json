@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E366377-D4EE-4C85-BB35-BA7D3296E8E4}|Homework10.3\\Homework10.3.vcxproj|C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.3\\Homework10.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E366377-D4EE-4C85-BB35-BA7D3296E8E4}|Homework10.3\\Homework10.3.vcxproj|solutionrelative:Homework10.3\\Homework10.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68700EF2-1EDB-4E92-AB81-AF3595394D8E}|Homework10.2\\Homework10.2.vcxproj|C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.2\\Homework10.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68700EF2-1EDB-4E92-AB81-AF3595394D8E}|Homework10.2\\Homework10.2.vcxproj|solutionrelative:Homework10.2\\Homework10.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD755FE8-99A5-491A-AFF3-1DB4CDCE3273}|Homework10.1\\Homework10.1.vcxproj|C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.1\\Homework10.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD755FE8-99A5-491A-AFF3-1DB4CDCE3273}|Homework10.1\\Homework10.1.vcxproj|solutionrelative:Homework10.1\\Homework10.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Homework10.1.cpp",
+              "DocumentMoniker": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.1\\Homework10.1.cpp",
+              "RelativeDocumentMoniker": "Homework10.1\\Homework10.1.cpp",
+              "ToolTip": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.1\\Homework10.1.cpp",
+              "RelativeToolTip": "Homework10.1\\Homework10.1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T19:14:16.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Homework10.2.cpp",
+              "DocumentMoniker": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.2\\Homework10.2.cpp",
+              "RelativeDocumentMoniker": "Homework10.2\\Homework10.2.cpp",
+              "ToolTip": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.2\\Homework10.2.cpp",
+              "RelativeToolTip": "Homework10.2\\Homework10.2.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T19:11:57.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Homework10.3.cpp",
+              "DocumentMoniker": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.3\\Homework10.3.cpp",
+              "RelativeDocumentMoniker": "Homework10.3\\Homework10.3.cpp",
+              "ToolTip": "C:\\Users\\Jalic Blades pc\\Documents\\GitHub\\CPSC5010\\Homework10\\Homework10.3\\Homework10.3.cpp",
+              "RelativeToolTip": "Homework10.3\\Homework10.3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T19:08:35.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

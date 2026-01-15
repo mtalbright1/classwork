@@ -1,0 +1,76 @@
+class Controller {
+	field Snake snek;
+	field int direction;		// 0=none, 1=up, 2=down, 3=left, 4=right
+	
+	constructor Controller new() {
+		let snek = Snake.new(50, 50);		// start the game in the centerish
+		let direction = 0;		// start the game without direction, not moving
+		do drawBorder();
+		return this;
+	}
+	
+	method void moveSnake() {		// uses direction to move the snake
+		if (direction = 1) {
+			do snek.moveUp();
+		}
+		if (direction = 2) {
+			do snek.moveDown();
+		}
+		if (direction = 3) {
+			do snek.moveLeft();
+		}
+		if (direction = 4) {
+			do snek.moveRight();
+		}
+		do Sys.wait(10);		// delays the next movement
+		return;
+	}
+	
+	method void run() {		// observes inputs, calls other methods
+		var char key;		// the currently pressed key
+		var boolean exit;
+		let exit = false;
+
+		while (~exit) {
+			while (key = 0) {		// continues moving in current direction even when not pressing anything
+				let key = Keyboard.keyPressed();
+				do moveSnake();
+			}
+			if (key = 81) {		// 'Q'
+				let exit = true;
+			}
+			if (key = 131) {		// up
+				let direction = 1;
+			}
+			if (key = 133) {		// down
+				let direction = 2;
+			}
+			if (key = 130) {		// left arrow key
+				let direction = 3;
+			}
+			if (key = 132) {		// right
+				let direction = 4;
+			}
+			while (~(key = 0)) {		// you also want to keep moving while a key is pressed
+				let key = Keyboard.keyPressed();
+				do moveSnake();
+			}
+		}
+		return;
+	}
+
+	method void drawBorder() {
+		do Screen.setColor(true);
+		do Screen.drawRectangle(6, 6, 506, 9);		// ceiling
+		do Screen.drawRectangle(503, 9, 506, 250);		// right wall
+		do Screen.drawRectangle(6, 247, 503, 250);		// floor
+		do Screen.drawRectangle(6, 9, 9, 247);		// left wall
+		return;
+	}
+	
+	method void dispose() {
+		do snek.dispose();
+		do Memory.deAlloc(this);
+		return;
+	}
+}

@@ -1,0 +1,152 @@
+class Screen {
+// screen is RAM 16384 - 24575
+
+	static int color;
+
+	function void init() {
+		let color = 0;		// white
+		return;
+	}
+
+	function void clearScreen() {
+		let color = 0;
+		do drawRectangle(0, 0, 512, 256);
+		return;
+	}
+
+	function void setColor(boolean b) {
+		if (b = 0) {
+			let color = 0;
+		}
+		else {
+			let color = 1;
+		}
+		return;
+	}
+
+	function void drawPixel(int x, int y) {
+		var int address, value, modulo, bitIndex, mask;
+		let address = 16384 + (y ∗ 32) + (x / 16);		// 512 rows of 16 bits each means 32 ram slots per row
+		let value = Memory.peek[16384 + address];		// value before the change
+		let modulo = x - (16 * (x / 16));		// set the (x%16)th bit of value to the current color
+		let bitIndex = 15 - modulo;		// because the byte goes 0 - 15
+		let mask = Math.pow(2, bitIndex); 		// for binary, 2^bitIndex gives the right bit
+
+		if (color = 1) {
+			let value = value | mask;		// OR function combines the single 1 from the mask with all existing 1's in the value byte
+		}
+		else {		// color is off/white
+			let mask = ~mask;		// NOT mask inverts it to all 1's and a single 0
+			let value = value & mask;		// AND needs both to be 1 to stay 1, therefore the target will be 0 and the rest will be unchanged
+		}
+
+		do Memory.poke(address, value);		// change the value there to the new value after the change
+		return;
+	}
+
+	function void drawLine(int x1, int y1, int x2, int y2) {
+		var int a, b, dx, dy, diff;
+		let a = 0;
+		let b = 0;
+		let dx = x2 - x1;
+		let dy = y2 - y1;
+		let diff = (a * dy) - (b * dx);
+
+		if (dx = 0) {		// vertical line
+			while (b <= dy) {
+				do drawPixel(x1, y1 + b);
+				let b = b + 1;
+			}
+			return;
+		}
+
+		if (dy = 0) {		// horizontal line
+			while (a <= dx) {
+				do drawPixel(x1 + a);
+				let a = a + 1;
+			}
+			return;
+		}
+		
+		if ((dx > 0) & (dy > 0)) {		// northeast diagonal line
+			while ((a <= dx) & (b <= dy)) {		
+				do drawPixel(x1 + a, y1 + b);		// the start coordinate plus the changes so far
+				if (diff < 0) {		// if the ratio that we've create is greater than the delta ratio, continue to the right to reduce the angle
+					let a = a + 1;
+					let diff = diff + dy;
+				}
+				else {
+					let b = b + 1;
+					let diff = diff - dx;
+				}
+			}
+			return;
+		}
+
+		if ((dx > 0) & (dy < 0)) {		// southeast diagonal line
+			while ((a <= dx) & (b >= dy)) {		
+				do drawPixel(x1 + a, y1 + b);		// the start coordinate plus the changes so far
+				if (diff < 0) {		
+					let a = a + 1;
+					let diff = diff + dy;
+				}
+				else {
+					let b = b - 1;
+					let diff = diff - dx;
+				}
+			}
+			return;
+		}
+
+		if ((dx < 0) & (dy > 0)) {		// northwest diagonal line
+			while ((a >= dx) & (b <= dy)) {		
+				do drawPixel(x1 + a, y1 + b);		// the start coordinate plus the changes so far
+				if (diff < 0) {		
+					let a = a - 1;
+					let diff = diff + dy;
+				}
+				else {
+					let b = b + 1;
+					let diff = diff - dx;
+				}
+			}
+			return;
+		}
+
+		if ((dx < 0) & (dy < 0)) {		// southwest diagonal line
+			while ((a >= dx) & (b >= dy)) {		
+				do drawPixel(x1 + a, y1 + b);		// the start coordinate plus the changes so far
+				if (diff < 0) {		
+					let a = a - 1;
+					let diff = diff + dy;
+				}
+				else {
+					let b = b - 1;
+					let diff = diff - dx;
+				}
+			}
+			return;
+		}
+	}
+
+	function void drawRectangle(int x1, int y1, int x2, int y2) {
+		do drawLine(x1, y1, x2, y1);		// top horizontal line
+		do drawLine(x1, y1, x1, y2);		// left vertical line
+		do drawLine(x1, y2, x2, y2);		// bottom horizontal line
+		do drawLine(x2, y1, x2, y2);		// right vertical line
+		return;
+	}
+
+	function void drawCircle(int x, int y, int r) {		// draw rows from dy=-r to dy=r
+		var int dy, b;
+		let dy = r;
+		
+		while (dy >= -r) {	// for each dy = - r to r do
+			let b = Math.sqrt(Math.pow(r, 2), Math.pow(dy, 2));		// pythagoream theorem
+			do drawPixel(x - b, y + dy);		// hollow circle
+			do drawPixel(x + b, y + dy);
+			let dy = dy - 1;
+		}
+		return;
+	}
+}

@@ -1,0 +1,5 @@
+﻿  Homework9.2.cpp
+C:\Github Repositories\Homework9\Homework9.2\Homework9.2.cpp(27,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Github Repositories\Homework9\Homework9.2\Homework9.2.cpp(28,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LINK : C:\Github Repositories\Homework9\x64\Debug\Homework9.2.exe not found or not built by the last incremental link; performing full link
+  Homework9.2.vcxproj -> C:\Github Repositories\Homework9\x64\Debug\Homework9.2.exe

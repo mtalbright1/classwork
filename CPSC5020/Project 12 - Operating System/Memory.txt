@@ -1,0 +1,62 @@
+class Memory {
+
+	static array ram, freeBlocks;
+	static int heapBase, length, next;
+	
+	function void init() {
+		let ram = 0;
+		let heapBase = 2048		// start of heap memory
+		let length = 0;
+		let next = 1;
+		let freeBlocks = heapBase;		// start at the beginning of heap
+		let freeBlocks[length] = 14335;		// the end
+		let freeBlocks[next] = null;		// this is the only one so far
+		return;
+	}
+
+	function int peek(int address) {		// returns the 16-bit value of a given RAM address
+		return ram[address];
+	}
+
+	function void poke(int address, int value) {		// sets the value of the given RAM address to the given value
+		let ram[address] = value;
+		return;
+	}
+
+	function Array alloc(int size) {
+		var Array block, previousBlock, nextBlock;
+		let block = freeBlocks		// get the next avaiable block
+		let previousBlock = 0;
+
+		while (block[length] < size) {		// find a block that's big enough
+			let prevBlock = block;
+			let block = block[next];
+			if (block = null) {
+				return 0;		// no next block was avaiable
+			}
+		}
+
+		let nextBlock = block + 2 + size;		// the start plus the size plus the two meta data
+		let nextBlock[length] = block[length] - size - 2;		// just take the size needed out of the chosen block
+		let nextBlock[next] = block[next];
+		let block[length] = size;
+		let block[next] = null;
+
+		if (prevBlock = 0) {
+			let freeBlocks = nextBlock;		// point to the next block
+		}
+		else {
+			let prevBlock[next] = nextBlock;
+		}
+
+		return block + 2;		// returns the start of the block after skipping the two meta data
+	}
+
+	function void deAlloc(Array o) {
+		var Array block;
+		let block = o - 2;		// back up to the beginning by compensating for the meta data
+		let block[next] = freeBlocks;		// make its next equal to freeBlocks spot
+		let freeBlocks = block;
+		return;
+	}
+}

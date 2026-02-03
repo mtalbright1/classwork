@@ -85,14 +85,13 @@ public class ArrayMethods {
 
 	//part f - move all evens to front
 	public static void moveEvensToFront(int[] values) {
-		int tracker = 0;
-		int temp;
-		for (int i = 0; i < values.length; i++) {		
-			if (values[i] % 2 == 0) {
-				temp = values[tracker];
-				values[tracker] = values[i];
-				values[i] = temp;
-				tracker++;
+		for (int i = 0; i < values.length - 1; i++) {
+			for (int j = 0; j < values.length - 1; j++) {
+				if(values[j] % 2 != 0 && values[j+1] % 2 == 0) {	// if the next one is even, swap them
+					int temp = values[j];
+					values[j] = values[j+1];
+					values[j+1] = temp;
+				}
 			}
 		}
 	}

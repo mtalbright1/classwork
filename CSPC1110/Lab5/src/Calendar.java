@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Calendar {
 	
-	ArrayList<Appointment> appointments;
+	private ArrayList<Appointment> appointments;
 	
 	public Calendar () {
 		appointments = new ArrayList<>();

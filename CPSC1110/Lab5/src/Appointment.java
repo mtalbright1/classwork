@@ -27,6 +27,7 @@ public class Appointment {
 		return description;
 	}
 	
+	@Override
 	public String toString() {
 		return getClass().getName() + "[" + description + " Date: " + month + "/" + day + "/" + year + "]";
 	}

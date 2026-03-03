@@ -38,7 +38,7 @@ public class Tester {
 			System.out.printf(i.getName() + ": %.3f%n", i.efficiency);
 		}
 		
-		ElectronicDevice target = (ElectronicDevice) getFirstBelowT(devices, 70);
+		ElectronicDevice target = getFirstBelowT(devices, 70);
 		if (target == null) {
 			System.out.println("There is no device with efficiency less than 70");
 		}
@@ -47,9 +47,9 @@ public class Tester {
 		}
 	}
 	
-	static PowerEfficiency getFirstBelowT(PowerEfficiency[] array, double threshold) {
+	static ElectronicDevice getFirstBelowT(ElectronicDevice[] devices, double threshold) {
 		
-		for (PowerEfficiency i : array) {
+		for (ElectronicDevice i : devices) {
 			if (i.getEfficiency() < threshold) {
 				return i;
 			}

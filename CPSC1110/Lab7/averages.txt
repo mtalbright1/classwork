@@ -1,0 +1,17 @@
+Student Name              Average
+-----------------------------------
+Alice Johnson             90.29
+Brian Kim                 79.60
+Carla Martinez            93.00
+David Chen                70.17
+Emma Thompson             89.00
+Faisal Ahmed              94.00
+Grace Lee                 77.50
+Henry White               87.00
+Isabella Rivera           95.00
+Jack Wilson               79.40
+Karen Patel               89.83
+Liam O’Connor             69.40
+Maya Rodriguez            93.00
+Noah Brown                82.71
+Olivia Smith              97.00

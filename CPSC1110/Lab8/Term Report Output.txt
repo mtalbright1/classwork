@@ -1,0 +1,11 @@
+Term: Fall 2024
+
+Student ID: SYZ321
+Name: John Doe
+CRN        Course Name                              Credit Hours    Grade   Grade Points
+CPSC2100   CPSC2100                                 3               A       4.0         
+CPSC1110   CPSC1110                                 4               A       4.0         
+CPSC2800   CPSC2800                                 3               B       3.0         
+MATH2030   MATH2030                                 3               C       2.0         
+GPA: 3.31
+------------------------------------------------------------------------------------

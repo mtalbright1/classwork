@@ -20,24 +20,24 @@ public class GradeProcessor {
 				Scanner fileScanner = new Scanner(inputFile);
 				
 				while (fileScanner.hasNextLine()) {
-					String line = fileScanner.nextLine();
+					String line = fileScanner.nextLine();		// read line by line
 					
 					if (line.isEmpty()) {
-						continue;
+						continue;		// if empty line, go to the next line
 					}
 					
-					String[] parts = line.split("\t");		// split on tab
+					String[] parts = line.split("\t");		// split line apart by tab
 					
-					String studentName = parts[0].trim(); 		// first part is name
+					String studentName = parts[0]; 		// first part is name
 					Student newStudent = new Student(studentName);		// create a new student using this name
 					
 					for (int i = 1; i < parts.length; i++) {
-						String token = parts[i];		// go through each part
+						String token = parts[i];		// go through each other part
 						try {
 							double grade = Double.parseDouble(token);		// try to turn the token into a double
 							newStudent.addGrade(grade);		// add the grade to the student
-						} catch (NumberFormatException error) {		// // Invalid grade ("--") skip it and keep going
-							System.out.println("  Skipping invalid grade for " + studentName + ": \"" + token + "\"");
+						} catch (NumberFormatException error) {		// Invalid grade ("--") skip it and keep going
+							System.out.println("Skipping invalid grade for " + studentName + ": " + token);
 						}
 					}
 					
@@ -48,7 +48,7 @@ public class GradeProcessor {
 				
 			} catch (FileNotFoundException error) {
 				System.out.println("File not found. Please retry.");
-				inputFile = null;		// reset inputFile to null to restart while loop
+				inputFile = null;		// reset inputFile to null to restart the while loop
 			}
 		}
 		

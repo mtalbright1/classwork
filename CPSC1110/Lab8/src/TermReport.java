@@ -20,7 +20,7 @@ public class TermReport {
 		try (PrintWriter output = new PrintWriter("Term Report Output.txt")) {
 			for (Student i : students) {
 				output.println ("Term: " + term);
-				output.println ("");
+				output.println ();
 				output.println ("Student ID: " + i.getStudentId());
 				output.println ("Name: " + i.getStudentName());
 				output.printf ("%-10s %-40s %-15s %-7s %-12s%n", "CRN", "Course Name", "Credit Hours", "Grade", "Grade Points");

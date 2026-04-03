@@ -1,122 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ecf8bd2-c2d1-45e4-bfd1-43baaf928b77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biometric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.lock_info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/.metadata/version.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 1/ArrayMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 1/ArrayMethodsTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/ArrayUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/MergeSortTimer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/MergeSorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/SelectionSortTimer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/SelectionSorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 10/StopWatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 2/TheaterSeatSeller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 3/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 3/BankAccountTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 3/banktester.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/HourlyEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/Payroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/PayrollDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/PayrollTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/bin/SalariedEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/HourlyEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/Payroll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/PayrollDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/PayrollTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 4/src/SalariedEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/ElectronicDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/Laptop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/LastDigitDistribution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/PowerEfficiency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/PrimeSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/RandomSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/Sequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/SequenceDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/SmartTV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/Smartphone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/SquareSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 6/Tester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 7/BadDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 7/CapacitorVoltage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 7/params.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 7/rc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/Grade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/GradeManagementSystemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/Term Report Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 8/TermReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 9/ArraySum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab 9/SquareRootComputer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/Appointment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/AppointmentDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/Calendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/Daily.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/Monthly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CSPC1110/Lab5/src/Onetime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biometric.py" beforeDir="false" afterPath="$PROJECT_DIR$/biometric.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3Br5d6PnxRvW6ZjqJlmrWHHsyb7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

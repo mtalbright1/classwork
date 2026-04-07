@@ -151,6 +151,7 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY ch.qos.logback.classic 1 0 2026-03-31 15:24:22.509
 !MESSAGE Logback config file: /home/mark/GitHub workspace/classwork/CPSC1110/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+<<<<<<< Updated upstream
 !SESSION 2026-04-07 10:04:04.461 -----------------------------------------------
 eclipse.buildId=4.34.0.20241128-0756
 java.version=23.0.2
@@ -2527,3 +2528,18 @@ java.util.ConcurrentModificationException
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2026-04-07 10:07:55.690
 !MESSAGE Setup tasks were performed during startup. See 'C:\Users\Jalic Blades pc\eclipse\java-2024-123\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+=======
+!SESSION 2026-04-01 09:48:53.647 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-01 09:48:58.482
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-01 09:49:00.290
+!MESSAGE Logback config file: /home/mark/GitHub workspace/classwork/CPSC1110/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+>>>>>>> Stashed changes

@@ -21,7 +21,7 @@ for file in os.listdir(stored_fingerprints):     # loop through the stored finge
     sift = cv2.SIFT_create()        # sift object that creates keypoints and descriptors from an image
 
     keypoints_1, descriptors_1 = sift.detectAndCompute(input_fingerprint, None)     # descriptors describe keypoints
-    keypoints_2, descriptors_2 = sift.detectAndCompure(fingerprint_image, None)     # a 128-number vector describing what the local area around the keypoint looks like
+    keypoints_2, descriptors_2 = sift.detectAndCompute(fingerprint_image, None)     # a 128-number vector describing what the local area around the keypoint looks like
 
     matches = cv2.FlannBasedMatcher({'algorithm': 1, 'trees': 10}, {}).knnMatch(descriptors_1, descriptors_2, k=2)
     # Fast Library for Approximate Nearest Neighbor
@@ -56,6 +56,6 @@ print("Score: " + str(best_score))
 # visualize the matching
 result = cv2.drawMatches(input_fingerprint, keypoints_input, match_image, keypoints_stored, match_keypoints, None)
 result = cv2.resize(result, None, fx=4, fy=4)     # resize the image
-cv2.inshow("Result", result)
+cv2.imshow("Result", result)
 cv2.waitKey(0)      # wait forever until I press any key
 cv2.destroyAllWindows()     # then close all windows

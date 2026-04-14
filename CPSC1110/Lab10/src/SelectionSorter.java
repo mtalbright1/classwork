@@ -1,36 +1,19 @@
-/**
-   The sort method of this class sorts an array, using the selection 
-   sort algorithm.
-*/
-public class SelectionSorter
-{
-   /**
-      Sorts an array, using selection sort.
-      @param a the array to sort
-   */
-   public static void sort(int[] a)
-   {  
-      for (int i = 0; i < a.length - 1; i++)
-      {  
-         int minPos = minimumPosition(a, i);
-         ArrayUtil.swap(a, minPos, i);
+
+public class SelectionSorter {
+
+   public static void sort(int[] array) {  
+      for (int i = 0; i < array.length - 1; i++) {  
+         int minPos = minimumPosition(array, i);
+         ArrayUtil.swap(array, minPos, i);
       }
    }
 
-   /**
-      Finds the smallest element in a tail range of the array.
-      @param a the array to sort
-      @param from the first position in a to compare
-      @return the position of the smallest element in the
-      range a[from] . . . a[a.length - 1]
-   */
-   private static int minimumPosition(int[] a, int from)
-   {  
-      int minPos = from;
-      for (int i = from + 1; i < a.length; i++)
-      {
-         if (a[i] < a[minPos])
+   private static int minimumPosition(int[] array, int currentPosition) {  
+      int minPos = currentPosition;
+      for (int i = currentPosition + 1; i < array.length; i++) {
+         if (array[i] < array[minPos]) {
         	 minPos = i;
+         }
       }
       return minPos;
    }

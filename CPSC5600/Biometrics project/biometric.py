@@ -4,9 +4,9 @@ import os       # for accessing files
 import cv2      # computer vision, install with $pip install opencv-python
 
 # can download fingerprint .bmp's from SOCOFing or FVC2002
-stored_fingerprints = "directory of stored fingerprints goes here"
-input_fingerprint = cv2.imread("filepath to input .bmp goes here")
-input_fingerprint = cv2.resize(input_fingerprint, None, fx=2.5, fy=2.5)     # scale up image size, if needed
+stored_fingerprints = "Fingerprint database"
+input_fingerprint = cv2.imread("Fingerprint database/1__M_Left_index_finger.BMP")
+#input_fingerprint = cv2.resize(input_fingerprint, None, fx=2.5, fy=2.5)     # scale up image size, if needed
 
 best_score = 0      # similarity score for the current best match
 match_filename = None      # will be filled with best match
@@ -55,7 +55,7 @@ print("Score: " + str(best_score))
 
 # visualize the matching
 result = cv2.drawMatches(input_fingerprint, keypoints_input, match_image, keypoints_stored, match_keypoints, None)
-result = cv2.resize(result, None, fx=4, fy=4)     # resize the image
+result = cv2.resize(result, None, fx=3, fy=3)     # resize the image
 cv2.imshow("Result", result)
 cv2.waitKey(0)      # wait forever until I press any key
 cv2.destroyAllWindows()     # then close all windows

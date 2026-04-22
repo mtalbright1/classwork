@@ -1,0 +1,49 @@
+Monaco: Population = 38341, Area = 2.02 km², Density = 18980.69 people/km²
+Gibraltar: Population = 40126, Area = 6.8 km², Density = 5900.88 people/km²
+Malta: Population = 545405, Area = 316.0 km², Density = 1725.97 people/km²
+Vatican City: Population = 501, Area = 0.44 km², Density = 1138.64 people/km²
+Jersey: Population = 103989, Area = 116.0 km², Density = 896.46 people/km²
+Guernsey: Population = 64477, Area = 78.0 km², Density = 826.63 people/km²
+San Marino: Population = 33572, Area = 61.0 km², Density = 550.36 people/km²
+Netherlands: Population = 18031000, Area = 41543.0 km², Density = 434.03 people/km²
+Belgium: Population = 11758600, Area = 30528.0 km², Density = 385.17 people/km²
+United Kingdom: Population = 69551300, Area = 242900.0 km², Density = 286.34 people/km²
+Luxembourg: Population = 680453, Area = 2586.0 km², Density = 263.13 people/km²
+Liechtenstein: Population = 40128, Area = 160.0 km², Density = 250.80 people/km²
+Romania: Population = 21904551, Area = 91669.0 km², Density = 238.95 people/km²
+Germany: Population = 84075100, Area = 357114.0 km², Density = 235.43 people/km²
+Switzerland: Population = 8967410, Area = 41284.0 km², Density = 217.21 people/km²
+Italy: Population = 59146300, Area = 301336.0 km², Density = 196.28 people/km²
+Andorra: Population = 82904, Area = 468.0 km², Density = 177.15 people/km²
+Isle of Man: Population = 84118, Area = 572.0 km², Density = 147.06 people/km²
+Denmark: Population = 6002510, Area = 43094.0 km², Density = 139.29 people/km²
+Czech Republic: Population = 10609200, Area = 78865.0 km², Density = 134.52 people/km²
+Poland: Population = 38441588, Area = 312679.0 km², Density = 122.94 people/km²
+France: Population = 66650800, Area = 551695.0 km², Density = 120.81 people/km²
+Portugal: Population = 10760305, Area = 92090.0 km², Density = 116.85 people/km²
+Slovakia: Population = 5424000, Area = 49037.0 km², Density = 110.61 people/km²
+Austria: Population = 9113570, Area = 83871.0 km², Density = 108.66 people/km²
+Slovenia: Population = 2117070, Area = 20273.0 km², Density = 104.43 people/km²
+Hungary: Population = 9632290, Area = 93028.0 km², Density = 103.54 people/km²
+Albania: Population = 2771510, Area = 28748.0 km², Density = 96.41 people/km²
+Spain: Population = 47890000, Area = 505992.0 km², Density = 94.65 people/km²
+Moldova: Population = 2996110, Area = 33846.0 km², Density = 88.52 people/km²
+North Macedonia: Population = 2076129, Area = 25713.0 km², Density = 80.74 people/km²
+Ireland: Population = 5308040, Area = 70273.0 km², Density = 75.53 people/km²
+Greece: Population = 9938840, Area = 131990.0 km², Density = 75.30 people/km²
+Serbia: Population = 6615000, Area = 88361.0 km², Density = 74.86 people/km²
+Croatia: Population = 3848160, Area = 56594.0 km², Density = 68.00 people/km²
+Ukraine: Population = 38980400, Area = 603500.0 km², Density = 64.59 people/km²
+Bosnia and Herzegovina: Population = 3140100, Area = 51209.0 km², Density = 61.32 people/km²
+Bulgaria: Population = 6714560, Area = 110879.0 km², Density = 60.56 people/km²
+Montenegro: Population = 632729, Area = 13812.0 km², Density = 45.81 people/km²
+Belarus: Population = 8997600, Area = 207600.0 km², Density = 43.34 people/km²
+Lithuania: Population = 2830140, Area = 65300.0 km², Density = 43.34 people/km²
+Faroe Islands: Population = 56002, Area = 1393.0 km², Density = 40.20 people/km²
+Norway: Population = 5578000, Area = 148729.0 km², Density = 37.50 people/km²
+Estonia: Population = 1344230, Area = 45227.0 km², Density = 29.72 people/km²
+Latvia: Population = 1853560, Area = 64559.0 km², Density = 28.71 people/km²
+Sweden: Population = 10566600, Area = 450295.0 km², Density = 23.47 people/km²
+Finland: Population = 5623330, Area = 338424.0 km², Density = 16.62 people/km²
+Russia: Population = 145165000, Area = 1.7098242E7 km², Density = 8.49 people/km²
+Iceland: Population = 398266, Area = 103000.0 km², Density = 3.87 people/km²

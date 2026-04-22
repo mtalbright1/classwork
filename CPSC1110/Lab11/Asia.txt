@@ -1,0 +1,50 @@
+Macau: Population = 722007, Area = 32.9 km², Density = 21945.50 people/km²
+Singapore: Population = 5997000, Area = 710.0 km², Density = 8446.48 people/km²
+Hong Kong: Population = 7396080, Area = 1104.0 km², Density = 6699.35 people/km²
+Bahrain: Population = 1643330, Area = 765.0 km², Density = 2148.14 people/km²
+Maldives: Population = 529676, Area = 300.0 km², Density = 1765.59 people/km²
+Bangladesh: Population = 175687000, Area = 147570.0 km², Density = 1190.53 people/km²
+Qatar: Population = 9257000, Area = 11586.0 km², Density = 798.98 people/km²
+Palestine: Population = 4137000, Area = 6220.0 km², Density = 665.11 people/km²
+Taiwan: Population = 23112800, Area = 36193.0 km², Density = 638.60 people/km²
+Lebanon: Population = 5849420, Area = 10452.0 km², Density = 559.65 people/km²
+South Korea: Population = 51667000, Area = 100210.0 km², Density = 515.59 people/km²
+Israel: Population = 9517180, Area = 20770.0 km², Density = 458.22 people/km²
+India: Population = 1463870000, Area = 3287590.0 km², Density = 445.27 people/km²
+Philippines: Population = 116628000, Area = 342353.0 km², Density = 340.67 people/km²
+Sri Lanka: Population = 22295000, Area = 65610.0 km², Density = 339.81 people/km²
+Japan: Population = 123103000, Area = 377930.0 km², Density = 325.73 people/km²
+Vietnam: Population = 101599000, Area = 331212.0 km², Density = 306.75 people/km²
+Kuwait: Population = 5026080, Area = 17818.0 km², Density = 282.08 people/km²
+Pakistan: Population = 236939000, Area = 881912.0 km², Density = 268.67 people/km²
+North Korea: Population = 25617841, Area = 123138.0 km², Density = 208.04 people/km²
+Nepal: Population = 29618100, Area = 147181.0 km², Density = 201.24 people/km²
+Indonesia: Population = 285721000, Area = 1904569.0 km², Density = 150.02 people/km²
+Cyprus: Population = 1370750, Area = 9251.0 km², Density = 148.17 people/km²
+China: Population = 1416100000, Area = 9706961.0 km², Density = 145.88 people/km²
+Thailand: Population = 71619900, Area = 513120.0 km², Density = 139.58 people/km²
+Syria: Population = 25620400, Area = 185180.0 km², Density = 138.35 people/km²
+United Arab Emirates: Population = 11346000, Area = 83600.0 km², Density = 135.72 people/km²
+Jordan: Population = 11520700, Area = 89342.0 km², Density = 128.95 people/km²
+Azerbaijan: Population = 10397700, Area = 86600.0 km², Density = 120.07 people/km²
+Turkey: Population = 87685400, Area = 783562.0 km², Density = 111.91 people/km²
+Malaysia: Population = 35977800, Area = 330803.0 km², Density = 108.76 people/km²
+Iraq: Population = 47020800, Area = 438317.0 km², Density = 107.28 people/km²
+Armenia: Population = 2952360, Area = 29743.0 km², Density = 99.26 people/km²
+Cambodia: Population = 17848000, Area = 181035.0 km², Density = 98.59 people/km²
+Uzbekistan: Population = 37053400, Area = 447400.0 km², Density = 82.82 people/km²
+Myanmar: Population = 54850600, Area = 676578.0 km², Density = 81.07 people/km²
+Brunei: Population = 466330, Area = 5765.0 km², Density = 80.89 people/km²
+Yemen: Population = 41773900, Area = 527968.0 km², Density = 79.12 people/km²
+Tajikistan: Population = 10786700, Area = 143100.0 km², Density = 75.38 people/km²
+Afghanistan: Population = 43844100, Area = 652230.0 km², Density = 67.22 people/km²
+Oman: Population = 5274000, Area = 82031.0 km², Density = 64.29 people/km²
+Iran: Population = 92417700, Area = 1648195.0 km², Density = 56.07 people/km²
+Georgia: Population = 3806670, Area = 69700.0 km², Density = 54.62 people/km²
+Kyrgyzstan: Population = 7295030, Area = 199951.0 km², Density = 36.48 people/km²
+Laos: Population = 7873050, Area = 236800.0 km², Density = 33.25 people/km²
+Bhutan: Population = 796682, Area = 38394.0 km², Density = 20.75 people/km²
+Saudi Arabia: Population = 35000000, Area = 2149690.0 km², Density = 16.28 people/km²
+Turkmenistan: Population = 7618850, Area = 488100.0 km², Density = 15.61 people/km²
+Kazakhstan: Population = 20843800, Area = 2724900.0 km², Density = 7.65 people/km²
+Mongolia: Population = 3517100, Area = 1564110.0 km², Density = 2.25 people/km²

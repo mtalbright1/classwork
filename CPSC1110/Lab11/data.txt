@@ -1,0 +1,233 @@
+Afghanistan	43844100	652230.00	Asia
+Albania	2771510	28748.00	Europe
+Algeria	47435300	2381741.00	Africa
+American Samoa	46029	199.00	Oceania
+Andorra	82904	468.00	Europe
+Angola	39040000	1246700.00	Africa
+Anguilla	14728	91.00	North America
+Antigua and Barbuda	94209	442.00	North America
+Argentina	45851400	2780400.00	South America
+Armenia	2952360	29743.00	Asia
+Aruba	108147	180.00	North America
+Australia	26974000	7692024.00	Oceania
+Austria	9113570	83871.00	Europe
+Azerbaijan	10397700	86600.00	Asia
+Bahamas	403033	13943.00	North America
+Bahrain	1643330	765.00	Asia
+Bangladesh	175687000	147570.00	Asia
+Barbados	282623	430.00	North America
+Belarus	8997600	207600.00	Europe
+Belgium	11758600	30528.00	Europe
+Belize	422924	22966.00	North America
+Benin	14814500	112622.00	Africa
+Bermuda	64555	54.00	North America
+Bhutan	796682	38394.00	Asia
+Bolivia	12581800	1098581.00	South America
+Bosnia and Herzegovina	3140100	51209.00	Europe
+Botswana	2562120	582000.00	Africa
+Brazil	212812000	8515767.00	South America
+British Virgin Islands	39732	151.00	North America
+Brunei	466330	5765.00	Asia
+Bulgaria	6714560	110879.00	Europe
+Burkina Faso	24074600	272967.00	Africa
+Burundi	14390000	27834.00	Africa
+Cambodia	17848000	181035.00	Asia
+Cameroon	29879300	475442.00	Africa
+Canada	40126700	9984670.00	North America
+Cape Verde	527326	4033.00	Africa
+Cayman Islands	75844	264.00	North America
+Central African Republic	5513280	622984.00	Africa
+Chad	21003700	1284000.00	Africa
+Chile	19859900	756102.00	South America
+China	1416100000	9706961.00	Asia
+Colombia	53425600	1141748.00	South America
+Comoros	882847	1862.00	Africa
+Cook Islands	13263	240.00	Oceania
+Costa Rica	5152950	51100.00	North America
+Croatia	3848160	56594.00	Europe
+Cuba	10937200	109884.00	North America
+Curacao	185487	444.00	North America
+Cyprus	1370750	9251.00	Asia
+Czech Republic	10609200	78865.00	Europe
+Denmark	6002510	43094.00	Europe
+Djibouti	1184080	23200.00	Africa
+Dominica	65871	751.00	North America
+Dominican Republic	11520500	48671.00	North America
+DR Congo	112832000	2344858.00	Africa
+Ecuador	18289900	276841.00	South America
+Egypt	118366000	1002450.00	Africa
+El Salvador	6365500	21041.00	North America
+Equatorial Guinea	1938430	28051.00	Africa
+Eritrea	3607000	117600.00	Africa
+Estonia	1344230	45227.00	Europe
+Eswatini	1256170	17364.00	Africa
+Ethiopia	135472000	1104300.00	Africa
+Falkland Islands	3469	12173.00	South America
+Faroe Islands	56002	1393.00	Europe
+Fiji	933154	18272.00	Oceania
+Finland	5623330	338424.00	Europe
+France	66650800	551695.00	Europe
+French Guiana	313666	83534.00	South America
+French Polynesia	282465	4167.00	Oceania
+Gabon	2593130	267668.00	Africa
+Gambia	2822090	10689.00	Africa
+Georgia	3806670	69700.00	Asia
+Germany	84075100	357114.00	Europe
+Ghana	35064300	238533.00	Africa
+Gibraltar	40126	6.80	Europe
+Greece	9938840	131990.00	Europe
+Greenland	55745	2166086.00	North America
+Grenada	117303	344.00	North America
+Guadeloupe	373791	1628.00	North America
+Guam	168999	549.00	Oceania
+Guatemala	18687900	108889.00	North America
+Guernsey	64477	78.00	Europe
+Guinea	15099700	245857.00	Africa
+Guinea-Bissau	2249520	36125.00	Africa
+Guyana	835986	214969.00	South America
+Haiti	11906100	27750.00	North America
+Honduras	11005800	112492.00	North America
+Hong Kong	7396080	1104.00	Asia
+Hungary	9632290	93028.00	Europe
+Iceland	398266	103000.00	Europe
+India	1463870000	3287590.00	Asia
+Indonesia	285721000	1904569.00	Asia
+Iran	92417700	1648195.00	Asia
+Iraq	47020800	438317.00	Asia
+Ireland	5308040	70273.00	Europe
+Isle of Man	84118	572.00	Europe
+Israel	9517180	20770.00	Asia
+Italy	59146300	301336.00	Europe
+Ivory Coast	32711500	322463.00	Africa
+Jamaica	2837080	10991.00	North America
+Japan	123103000	377930.00	Asia
+Jersey	103989	116.00	Europe
+Jordan	11520700	89342.00	Asia
+Kazakhstan	20843800	2724900.00	Asia
+Kenya	57532500	580367.00	Africa
+Kiribati	136488	811.00	Oceania
+Kuwait	5026080	17818.00	Asia
+Kyrgyzstan	7295030	199951.00	Asia
+Laos	7873050	236800.00	Asia
+Latvia	1853560	64559.00	Europe
+Lebanon	5849420	10452.00	Asia
+Lesotho	2363320	30355.00	Africa
+Liberia	5731210	111369.00	Africa
+Libya	7458560	1759540.00	Africa
+Liechtenstein	40128	160.00	Europe
+Lithuania	2830140	65300.00	Europe
+Luxembourg	680453	2586.00	Europe
+Macau	722007	32.90	Asia
+Madagascar	32740700	587041.00	Africa
+Malawi	22216100	118484.00	Africa
+Malaysia	35977800	330803.00	Asia
+Maldives	529676	300.00	Asia
+Mali	25198800	1240192.00	Africa
+Malta	545405	316.00	Europe
+Marshall Islands	36282	181.00	Oceania
+Martinique	340439	1128.00	North America
+Mauritania	5315060	1030700.00	Africa
+Mauritius	1268280	2040.00	Africa
+Mayotte	337011	374.00	Africa
+Mexico	131947000	1964375.00	North America
+Micronesia	113683	702.00	Oceania
+Moldova	2996110	33846.00	Europe
+Monaco	38341	2.02	Europe
+Mongolia	3517100	1564110.00	Asia
+Montenegro	632729	13812.00	Europe
+Morocco	38430800	446550.00	Africa
+Mozambique	35631700	801590.00	Africa
+Myanmar	54850600	676578.00	Asia
+Namibia	3092820	825615.00	Africa
+Nauru	12025	21.00	Oceania
+Nepal	29618100	147181.00	Asia
+Netherlands	18031000	41543.00	Europe
+New Caledonia	273900	18576.00	Oceania
+New Zealand	5378000	268107.00	Oceania
+Nicaragua	6875000	130376.00	North America
+Niger	26292000	1266491.00	Africa
+Nigeria	228181000	923768.00	Africa
+Niue	1934	261.00	Oceania
+North Korea	25617841	123138.00	Asia
+North Macedonia	2076129	25713.00	Europe
+Northern Mariana Islands	49551	464.00	Oceania
+Norway	5578000	148729.00	Europe
+Oman	5274000	82031.00	Asia
+Pakistan	236939000	881912.00	Asia
+Palau	18055	459.00	Oceania
+Palestine	4137000	6220.00	Asia
+Panama	4307000	75417.00	North America
+Papua New Guinea	10142619	462840.00	Oceania
+Paraguay	6194000	406752.00	South America
+Peru	32971000	1285216.00	South America
+Philippines	116628000	342353.00	Asia
+Poland	38441588	312679.00	Europe
+Portugal	10760305	92090.00	Europe
+Puerto Rico	3235290	8870.00	North America
+Qatar	9257000	11586.00	Asia
+Republic of the Congo	6373000	342000.00	Africa
+Reunion	882405	2511.00	Africa
+Romania	21904551	91669.00	Europe
+Russia	145165000	17098242.00	Europe
+Rwanda	11370425	10169.00	Africa
+Saint Barthelemy	11414	21.00	North America
+Saint Kitts and Nevis	46922	261.00	North America
+Saint Lucia	180149	616.00	North America
+Saint Martin	24941	53.00	North America
+Saint Pierre and Miquelon	5574	242.00	North America
+Saint Vincent and the Grenadines	99924	389.00	North America
+Samoa	222382	2842.00	Oceania
+San Marino	33572	61.00	Europe
+Sao Tome and Principe	240254	964.00	Africa
+Saudi Arabia	35000000	2149690.00	Asia
+Senegal	18932000	196722.00	Africa
+Serbia	6615000	88361.00	Europe
+Seychelles	132779	455.00	Africa
+Sierra Leone	8819790	71740.00	Africa
+Singapore	5997000	710.00	Asia
+Sint Maarten	43923	34.00	North America
+Slovakia	5424000	49037.00	Europe
+Slovenia	2117070	20273.00	Europe
+Solomon Islands	724273	28896.00	Oceania
+Somalia	10000000	637657.00	Africa
+South Africa	58558000	1219090.00	Africa
+South Korea	51667000	100210.00	Asia
+South Sudan	12188800	619745.00	Africa
+Spain	47890000	505992.00	Europe
+Sri Lanka	22295000	65610.00	Asia
+Sudan	51662100	1886068.00	Africa
+Suriname	639850	163820.00	South America
+Sweden	10566600	450295.00	Europe
+Switzerland	8967410	41284.00	Europe
+Syria	25620400	185180.00	Asia
+Taiwan	23112800	36193.00	Asia
+Tajikistan	10786700	143100.00	Asia
+Tanzania	70545900	945087.00	Africa
+Thailand	71619900	513120.00	Asia
+Timor-Leste	1418520	14874.00	Oceania
+Togo	9721610	56785.00	Africa
+Tokelau	1871	12.00	Oceania
+Tonga	106858	747.00	Oceania
+Trinidad and Tobago	1511160	5130.00	North America
+Tunisia	12348600	163610.00	Africa
+Turkey	87685400	783562.00	Asia
+Turkmenistan	7618850	488100.00	Asia
+Turks and Caicos Islands	46855	948.00	North America
+Tuvalu	9492	26.00	Oceania
+Uganda	51384900	241550.00	Africa
+Ukraine	38980400	603500.00	Europe
+United Arab Emirates	11346000	83600.00	Asia
+United Kingdom	69551300	242900.00	Europe
+United States	347276000	9372610.00	North America
+United States Virgin Islands	84138	347.00	North America
+Uruguay	3384690	181034.00	South America
+Uzbekistan	37053400	447400.00	Asia
+Vanuatu	335169	12189.00	Oceania
+Vatican City	501	0.44	Europe
+Venezuela	28516900	916445.00	South America
+Vietnam	101599000	331212.00	Asia
+Wallis and Futuna	11194	274.00	Oceania
+Western Sahara	600904	266000.00	Africa
+Yemen	41773900	527968.00	Asia
+Zambia	21913900	752612.00	Africa
+Zimbabwe	16950800	390757.00	Africa

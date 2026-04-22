@@ -1,0 +1,39 @@
+Sint Maarten: Population = 43923, Area = 34.0 km², Density = 1291.85 people/km²
+Bermuda: Population = 64555, Area = 54.0 km², Density = 1195.46 people/km²
+Barbados: Population = 282623, Area = 430.0 km², Density = 657.26 people/km²
+Aruba: Population = 108147, Area = 180.0 km², Density = 600.82 people/km²
+Saint Barthelemy: Population = 11414, Area = 21.0 km², Density = 543.52 people/km²
+Saint Martin: Population = 24941, Area = 53.0 km², Density = 470.58 people/km²
+Haiti: Population = 11906100, Area = 27750.0 km², Density = 429.05 people/km²
+Curacao: Population = 185487, Area = 444.0 km², Density = 417.76 people/km²
+Puerto Rico: Population = 3235290, Area = 8870.0 km², Density = 364.75 people/km²
+Grenada: Population = 117303, Area = 344.0 km², Density = 341.00 people/km²
+El Salvador: Population = 6365500, Area = 21041.0 km², Density = 302.53 people/km²
+Martinique: Population = 340439, Area = 1128.0 km², Density = 301.81 people/km²
+Trinidad and Tobago: Population = 1511160, Area = 5130.0 km², Density = 294.57 people/km²
+Saint Lucia: Population = 180149, Area = 616.0 km², Density = 292.45 people/km²
+Cayman Islands: Population = 75844, Area = 264.0 km², Density = 287.29 people/km²
+British Virgin Islands: Population = 39732, Area = 151.0 km², Density = 263.13 people/km²
+Jamaica: Population = 2837080, Area = 10991.0 km², Density = 258.13 people/km²
+Saint Vincent and the Grenadines: Population = 99924, Area = 389.0 km², Density = 256.87 people/km²
+United States Virgin Islands: Population = 84138, Area = 347.0 km², Density = 242.47 people/km²
+Dominican Republic: Population = 11520500, Area = 48671.0 km², Density = 236.70 people/km²
+Guadeloupe: Population = 373791, Area = 1628.0 km², Density = 229.60 people/km²
+Antigua and Barbuda: Population = 94209, Area = 442.0 km², Density = 213.14 people/km²
+Saint Kitts and Nevis: Population = 46922, Area = 261.0 km², Density = 179.78 people/km²
+Guatemala: Population = 18687900, Area = 108889.0 km², Density = 171.62 people/km²
+Anguilla: Population = 14728, Area = 91.0 km², Density = 161.85 people/km²
+Costa Rica: Population = 5152950, Area = 51100.0 km², Density = 100.84 people/km²
+Cuba: Population = 10937200, Area = 109884.0 km², Density = 99.53 people/km²
+Honduras: Population = 11005800, Area = 112492.0 km², Density = 97.84 people/km²
+Dominica: Population = 65871, Area = 751.0 km², Density = 87.71 people/km²
+Mexico: Population = 131947000, Area = 1964375.0 km², Density = 67.17 people/km²
+Panama: Population = 4307000, Area = 75417.0 km², Density = 57.11 people/km²
+Nicaragua: Population = 6875000, Area = 130376.0 km², Density = 52.73 people/km²
+Turks and Caicos Islands: Population = 46855, Area = 948.0 km², Density = 49.43 people/km²
+United States: Population = 347276000, Area = 9372610.0 km², Density = 37.05 people/km²
+Bahamas: Population = 403033, Area = 13943.0 km², Density = 28.91 people/km²
+Saint Pierre and Miquelon: Population = 5574, Area = 242.0 km², Density = 23.03 people/km²
+Belize: Population = 422924, Area = 22966.0 km², Density = 18.42 people/km²
+Canada: Population = 40126700, Area = 9984670.0 km², Density = 4.02 people/km²
+Greenland: Population = 55745, Area = 2166086.0 km², Density = 0.03 people/km²

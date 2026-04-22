@@ -1,0 +1,14 @@
+Ecuador: Population = 18289900, Area = 276841.0 km², Density = 66.07 people/km²
+Colombia: Population = 53425600, Area = 1141748.0 km², Density = 46.79 people/km²
+Venezuela: Population = 28516900, Area = 916445.0 km², Density = 31.12 people/km²
+Chile: Population = 19859900, Area = 756102.0 km², Density = 26.27 people/km²
+Peru: Population = 32971000, Area = 1285216.0 km², Density = 25.65 people/km²
+Brazil: Population = 212812000, Area = 8515767.0 km², Density = 24.99 people/km²
+Uruguay: Population = 3384690, Area = 181034.0 km², Density = 18.70 people/km²
+Argentina: Population = 45851400, Area = 2780400.0 km², Density = 16.49 people/km²
+Paraguay: Population = 6194000, Area = 406752.0 km², Density = 15.23 people/km²
+Bolivia: Population = 12581800, Area = 1098581.0 km², Density = 11.45 people/km²
+Suriname: Population = 639850, Area = 163820.0 km², Density = 3.91 people/km²
+Guyana: Population = 835986, Area = 214969.0 km², Density = 3.89 people/km²
+French Guiana: Population = 313666, Area = 83534.0 km², Density = 3.75 people/km²
+Falkland Islands: Population = 3469, Area = 12173.0 km², Density = 0.28 people/km²

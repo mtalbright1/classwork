@@ -57,7 +57,7 @@ public class CountryPopulationDensity {
 					writer.println(j.toString());		// write its toString result to a new line
 				}
 				
-				writer.close();		// must close to actually write
+				writer.close();		// must close to actually writes
 				
 			} catch (Exception e) {
 				System.out.println("Could not write file");

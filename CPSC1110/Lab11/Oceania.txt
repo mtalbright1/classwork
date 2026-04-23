@@ -1,24 +1,24 @@
-Nauru: Population = 12025, Area = 21.0 km², Density = 572.62 people/km²
-Tuvalu: Population = 9492, Area = 26.0 km², Density = 365.08 people/km²
-Guam: Population = 168999, Area = 549.0 km², Density = 307.83 people/km²
-American Samoa: Population = 46029, Area = 199.0 km², Density = 231.30 people/km²
-Marshall Islands: Population = 36282, Area = 181.0 km², Density = 200.45 people/km²
-Kiribati: Population = 136488, Area = 811.0 km², Density = 168.30 people/km²
-Micronesia: Population = 113683, Area = 702.0 km², Density = 161.94 people/km²
-Tokelau: Population = 1871, Area = 12.0 km², Density = 155.92 people/km²
-Tonga: Population = 106858, Area = 747.0 km², Density = 143.05 people/km²
-Northern Mariana Islands: Population = 49551, Area = 464.0 km², Density = 106.79 people/km²
-Timor-Leste: Population = 1418520, Area = 14874.0 km², Density = 95.37 people/km²
-Samoa: Population = 222382, Area = 2842.0 km², Density = 78.25 people/km²
-French Polynesia: Population = 282465, Area = 4167.0 km², Density = 67.79 people/km²
-Cook Islands: Population = 13263, Area = 240.0 km², Density = 55.26 people/km²
-Fiji: Population = 933154, Area = 18272.0 km², Density = 51.07 people/km²
-Wallis and Futuna: Population = 11194, Area = 274.0 km², Density = 40.85 people/km²
-Palau: Population = 18055, Area = 459.0 km², Density = 39.34 people/km²
-Vanuatu: Population = 335169, Area = 12189.0 km², Density = 27.50 people/km²
-Solomon Islands: Population = 724273, Area = 28896.0 km², Density = 25.06 people/km²
-Papua New Guinea: Population = 10142619, Area = 462840.0 km², Density = 21.91 people/km²
-New Zealand: Population = 5378000, Area = 268107.0 km², Density = 20.06 people/km²
-New Caledonia: Population = 273900, Area = 18576.0 km², Density = 14.74 people/km²
-Niue: Population = 1934, Area = 261.0 km², Density = 7.41 people/km²
-Australia: Population = 26974000, Area = 7692024.0 km², Density = 3.51 people/km²
+Nauru: Population = 12025, Area = 21.00km², Density = 572.62 people/km²
+Tuvalu: Population = 9492, Area = 26.00km², Density = 365.08 people/km²
+Guam: Population = 168999, Area = 549.00km², Density = 307.83 people/km²
+American Samoa: Population = 46029, Area = 199.00km², Density = 231.30 people/km²
+Marshall Islands: Population = 36282, Area = 181.00km², Density = 200.45 people/km²
+Kiribati: Population = 136488, Area = 811.00km², Density = 168.30 people/km²
+Micronesia: Population = 113683, Area = 702.00km², Density = 161.94 people/km²
+Tokelau: Population = 1871, Area = 12.00km², Density = 155.92 people/km²
+Tonga: Population = 106858, Area = 747.00km², Density = 143.05 people/km²
+Northern Mariana Islands: Population = 49551, Area = 464.00km², Density = 106.79 people/km²
+Timor-Leste: Population = 1418520, Area = 14874.00km², Density = 95.37 people/km²
+Samoa: Population = 222382, Area = 2842.00km², Density = 78.25 people/km²
+French Polynesia: Population = 282465, Area = 4167.00km², Density = 67.79 people/km²
+Cook Islands: Population = 13263, Area = 240.00km², Density = 55.26 people/km²
+Fiji: Population = 933154, Area = 18272.00km², Density = 51.07 people/km²
+Wallis and Futuna: Population = 11194, Area = 274.00km², Density = 40.85 people/km²
+Palau: Population = 18055, Area = 459.00km², Density = 39.34 people/km²
+Vanuatu: Population = 335169, Area = 12189.00km², Density = 27.50 people/km²
+Solomon Islands: Population = 724273, Area = 28896.00km², Density = 25.06 people/km²
+Papua New Guinea: Population = 10142619, Area = 462840.00km², Density = 21.91 people/km²
+New Zealand: Population = 5378000, Area = 268107.00km², Density = 20.06 people/km²
+New Caledonia: Population = 273900, Area = 18576.00km², Density = 14.74 people/km²
+Niue: Population = 1934, Area = 261.00km², Density = 7.41 people/km²
+Australia: Population = 26974000, Area = 7692024.00km², Density = 3.51 people/km²

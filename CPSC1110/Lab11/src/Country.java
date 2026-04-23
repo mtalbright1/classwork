@@ -28,8 +28,8 @@ public class Country implements Comparable<Country> {		// Comparable is a built 
 	}
 	
 	@Override
-	public String toString() {		// \u00B2 is ^2. Population density is rounded to two decimal places here
-		return name + ": Population = " + population + ", Area = " + area + " km\u00B2, Density = " + String.format("%.2f", getPopulationDensity()) + " people/km\u00B2";
+	public String toString() {		// Population density is rounded to two decimal places here. %s for string, %d for int, %f for double
+		return String.format("%s: Population = %d, Area = %.2fkm², Density = %.2f people/km²", name, population, area, getPopulationDensity());
 	}
 	
 	@Override

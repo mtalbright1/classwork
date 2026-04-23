@@ -1,57 +1,57 @@
-Rwanda: Population = 11370425, Area = 10169.0 km², Density = 1118.15 people/km²
-Mayotte: Population = 337011, Area = 374.0 km², Density = 901.10 people/km²
-Mauritius: Population = 1268280, Area = 2040.0 km², Density = 621.71 people/km²
-Burundi: Population = 14390000, Area = 27834.0 km², Density = 516.99 people/km²
-Comoros: Population = 882847, Area = 1862.0 km², Density = 474.14 people/km²
-Reunion: Population = 882405, Area = 2511.0 km², Density = 351.42 people/km²
-Seychelles: Population = 132779, Area = 455.0 km², Density = 291.82 people/km²
-Gambia: Population = 2822090, Area = 10689.0 km², Density = 264.02 people/km²
-Sao Tome and Principe: Population = 240254, Area = 964.0 km², Density = 249.23 people/km²
-Nigeria: Population = 228181000, Area = 923768.0 km², Density = 247.01 people/km²
-Uganda: Population = 51384900, Area = 241550.0 km², Density = 212.73 people/km²
-Malawi: Population = 22216100, Area = 118484.0 km², Density = 187.50 people/km²
-Togo: Population = 9721610, Area = 56785.0 km², Density = 171.20 people/km²
-Ghana: Population = 35064300, Area = 238533.0 km², Density = 147.00 people/km²
-Benin: Population = 14814500, Area = 112622.0 km², Density = 131.54 people/km²
-Cape Verde: Population = 527326, Area = 4033.0 km², Density = 130.75 people/km²
-Sierra Leone: Population = 8819790, Area = 71740.0 km², Density = 122.94 people/km²
-Ethiopia: Population = 135472000, Area = 1104300.0 km², Density = 122.68 people/km²
-Egypt: Population = 118366000, Area = 1002450.0 km², Density = 118.08 people/km²
-Ivory Coast: Population = 32711500, Area = 322463.0 km², Density = 101.44 people/km²
-Kenya: Population = 57532500, Area = 580367.0 km², Density = 99.13 people/km²
-Senegal: Population = 18932000, Area = 196722.0 km², Density = 96.24 people/km²
-Burkina Faso: Population = 24074600, Area = 272967.0 km², Density = 88.20 people/km²
-Morocco: Population = 38430800, Area = 446550.0 km², Density = 86.06 people/km²
-Lesotho: Population = 2363320, Area = 30355.0 km², Density = 77.86 people/km²
-Tunisia: Population = 12348600, Area = 163610.0 km², Density = 75.48 people/km²
-Tanzania: Population = 70545900, Area = 945087.0 km², Density = 74.64 people/km²
-Eswatini: Population = 1256170, Area = 17364.0 km², Density = 72.34 people/km²
-Equatorial Guinea: Population = 1938430, Area = 28051.0 km², Density = 69.10 people/km²
-Cameroon: Population = 29879300, Area = 475442.0 km², Density = 62.85 people/km²
-Guinea-Bissau: Population = 2249520, Area = 36125.0 km², Density = 62.27 people/km²
-Guinea: Population = 15099700, Area = 245857.0 km², Density = 61.42 people/km²
-Madagascar: Population = 32740700, Area = 587041.0 km², Density = 55.77 people/km²
-Liberia: Population = 5731210, Area = 111369.0 km², Density = 51.46 people/km²
-Djibouti: Population = 1184080, Area = 23200.0 km², Density = 51.04 people/km²
-DR Congo: Population = 112832000, Area = 2344858.0 km², Density = 48.12 people/km²
-South Africa: Population = 58558000, Area = 1219090.0 km², Density = 48.03 people/km²
-Mozambique: Population = 35631700, Area = 801590.0 km², Density = 44.45 people/km²
-Zimbabwe: Population = 16950800, Area = 390757.0 km², Density = 43.38 people/km²
-Angola: Population = 39040000, Area = 1246700.0 km², Density = 31.31 people/km²
-Eritrea: Population = 3607000, Area = 117600.0 km², Density = 30.67 people/km²
-Zambia: Population = 21913900, Area = 752612.0 km², Density = 29.12 people/km²
-Sudan: Population = 51662100, Area = 1886068.0 km², Density = 27.39 people/km²
-Niger: Population = 26292000, Area = 1266491.0 km², Density = 20.76 people/km²
-Mali: Population = 25198800, Area = 1240192.0 km², Density = 20.32 people/km²
-Algeria: Population = 47435300, Area = 2381741.0 km², Density = 19.92 people/km²
-South Sudan: Population = 12188800, Area = 619745.0 km², Density = 19.67 people/km²
-Republic of the Congo: Population = 6373000, Area = 342000.0 km², Density = 18.63 people/km²
-Chad: Population = 21003700, Area = 1284000.0 km², Density = 16.36 people/km²
-Somalia: Population = 10000000, Area = 637657.0 km², Density = 15.68 people/km²
-Gabon: Population = 2593130, Area = 267668.0 km², Density = 9.69 people/km²
-Central African Republic: Population = 5513280, Area = 622984.0 km², Density = 8.85 people/km²
-Mauritania: Population = 5315060, Area = 1030700.0 km², Density = 5.16 people/km²
-Botswana: Population = 2562120, Area = 582000.0 km², Density = 4.40 people/km²
-Libya: Population = 7458560, Area = 1759540.0 km², Density = 4.24 people/km²
-Namibia: Population = 3092820, Area = 825615.0 km², Density = 3.75 people/km²
-Western Sahara: Population = 600904, Area = 266000.0 km², Density = 2.26 people/km²
+Rwanda: Population = 11370425, Area = 10169.00km², Density = 1118.15 people/km²
+Mayotte: Population = 337011, Area = 374.00km², Density = 901.10 people/km²
+Mauritius: Population = 1268280, Area = 2040.00km², Density = 621.71 people/km²
+Burundi: Population = 14390000, Area = 27834.00km², Density = 516.99 people/km²
+Comoros: Population = 882847, Area = 1862.00km², Density = 474.14 people/km²
+Reunion: Population = 882405, Area = 2511.00km², Density = 351.42 people/km²
+Seychelles: Population = 132779, Area = 455.00km², Density = 291.82 people/km²
+Gambia: Population = 2822090, Area = 10689.00km², Density = 264.02 people/km²
+Sao Tome and Principe: Population = 240254, Area = 964.00km², Density = 249.23 people/km²
+Nigeria: Population = 228181000, Area = 923768.00km², Density = 247.01 people/km²
+Uganda: Population = 51384900, Area = 241550.00km², Density = 212.73 people/km²
+Malawi: Population = 22216100, Area = 118484.00km², Density = 187.50 people/km²
+Togo: Population = 9721610, Area = 56785.00km², Density = 171.20 people/km²
+Ghana: Population = 35064300, Area = 238533.00km², Density = 147.00 people/km²
+Benin: Population = 14814500, Area = 112622.00km², Density = 131.54 people/km²
+Cape Verde: Population = 527326, Area = 4033.00km², Density = 130.75 people/km²
+Sierra Leone: Population = 8819790, Area = 71740.00km², Density = 122.94 people/km²
+Ethiopia: Population = 135472000, Area = 1104300.00km², Density = 122.68 people/km²
+Egypt: Population = 118366000, Area = 1002450.00km², Density = 118.08 people/km²
+Ivory Coast: Population = 32711500, Area = 322463.00km², Density = 101.44 people/km²
+Kenya: Population = 57532500, Area = 580367.00km², Density = 99.13 people/km²
+Senegal: Population = 18932000, Area = 196722.00km², Density = 96.24 people/km²
+Burkina Faso: Population = 24074600, Area = 272967.00km², Density = 88.20 people/km²
+Morocco: Population = 38430800, Area = 446550.00km², Density = 86.06 people/km²
+Lesotho: Population = 2363320, Area = 30355.00km², Density = 77.86 people/km²
+Tunisia: Population = 12348600, Area = 163610.00km², Density = 75.48 people/km²
+Tanzania: Population = 70545900, Area = 945087.00km², Density = 74.64 people/km²
+Eswatini: Population = 1256170, Area = 17364.00km², Density = 72.34 people/km²
+Equatorial Guinea: Population = 1938430, Area = 28051.00km², Density = 69.10 people/km²
+Cameroon: Population = 29879300, Area = 475442.00km², Density = 62.85 people/km²
+Guinea-Bissau: Population = 2249520, Area = 36125.00km², Density = 62.27 people/km²
+Guinea: Population = 15099700, Area = 245857.00km², Density = 61.42 people/km²
+Madagascar: Population = 32740700, Area = 587041.00km², Density = 55.77 people/km²
+Liberia: Population = 5731210, Area = 111369.00km², Density = 51.46 people/km²
+Djibouti: Population = 1184080, Area = 23200.00km², Density = 51.04 people/km²
+DR Congo: Population = 112832000, Area = 2344858.00km², Density = 48.12 people/km²
+South Africa: Population = 58558000, Area = 1219090.00km², Density = 48.03 people/km²
+Mozambique: Population = 35631700, Area = 801590.00km², Density = 44.45 people/km²
+Zimbabwe: Population = 16950800, Area = 390757.00km², Density = 43.38 people/km²
+Angola: Population = 39040000, Area = 1246700.00km², Density = 31.31 people/km²
+Eritrea: Population = 3607000, Area = 117600.00km², Density = 30.67 people/km²
+Zambia: Population = 21913900, Area = 752612.00km², Density = 29.12 people/km²
+Sudan: Population = 51662100, Area = 1886068.00km², Density = 27.39 people/km²
+Niger: Population = 26292000, Area = 1266491.00km², Density = 20.76 people/km²
+Mali: Population = 25198800, Area = 1240192.00km², Density = 20.32 people/km²
+Algeria: Population = 47435300, Area = 2381741.00km², Density = 19.92 people/km²
+South Sudan: Population = 12188800, Area = 619745.00km², Density = 19.67 people/km²
+Republic of the Congo: Population = 6373000, Area = 342000.00km², Density = 18.63 people/km²
+Chad: Population = 21003700, Area = 1284000.00km², Density = 16.36 people/km²
+Somalia: Population = 10000000, Area = 637657.00km², Density = 15.68 people/km²
+Gabon: Population = 2593130, Area = 267668.00km², Density = 9.69 people/km²
+Central African Republic: Population = 5513280, Area = 622984.00km², Density = 8.85 people/km²
+Mauritania: Population = 5315060, Area = 1030700.00km², Density = 5.16 people/km²
+Botswana: Population = 2562120, Area = 582000.00km², Density = 4.40 people/km²
+Libya: Population = 7458560, Area = 1759540.00km², Density = 4.24 people/km²
+Namibia: Population = 3092820, Area = 825615.00km², Density = 3.75 people/km²
+Western Sahara: Population = 600904, Area = 266000.00km², Density = 2.26 people/km²

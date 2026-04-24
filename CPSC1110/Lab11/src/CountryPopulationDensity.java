@@ -34,7 +34,10 @@ public class CountryPopulationDensity {
 				String continent = tokens[3];
 				
 				Country country = new Country(name, population, area);
-				continentMap.computeIfAbsent(continent, k -> new ArrayList<>()).add(country);		// If continent doesn't yet exist, make it and add the country. Otherwise, add the country.
+				if (!continentMap.containsKey(continent)) {
+    				continentMap.put(continent, new ArrayList<>());
+				}
+				continentMap.get(continent).add(country);		// If continent doesn't yet exist, make it and add the country. Otherwise, add the country.
 			}
 			
 			fileScanner.close();

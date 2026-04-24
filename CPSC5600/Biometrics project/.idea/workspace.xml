@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ecf8bd2-c2d1-45e4-bfd1-43baaf928b77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.py" afterDir="false" />
+    <list default="true" id="8f0d8c74-831e-4387-8eda-28824165cff8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/biometric.py" beforeDir="false" afterPath="$PROJECT_DIR$/biometric.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="3Br5d6PnxRvW6ZjqJlmrWHHsyb7" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="3CgCwuKGJWguCTf7TYJCN6rhPW0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,10 +34,14 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.biometric.executor&quot;: &quot;Run&quot;,
+    &quot;Python.receiver_handler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sender_handler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup_users.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Document Storage/Git Repositories/classwork/CPSC5600/Biometrics project&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Document Storage/Git Repositories/5600 project/crypto_bio_project&quot;
   }
 }</component>
   <component name="SharedIndexes">
@@ -54,12 +53,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ecf8bd2-c2d1-45e4-bfd1-43baaf928b77" name="Changes" comment="" />
-      <created>1775234432354</created>
+      <changelist id="8f0d8c74-831e-4387-8eda-28824165cff8" name="Changes" comment="" />
+      <created>1776798068453</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1775234432354</updated>
+      <updated>1776798068453</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/encryption.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/biometric.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sender_handler.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

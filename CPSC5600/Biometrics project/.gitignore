@@ -1,0 +1,9 @@
+# ignore any .pem files
+**/*.pem
+
+# ignore fingerprint files
+/users/*/fingerprints.txt
+
+# python cached files
+__pycache__/
+*.pyc

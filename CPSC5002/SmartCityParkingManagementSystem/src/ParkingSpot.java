@@ -16,12 +16,13 @@ public class ParkingSpot {
 		case(0): number = "A" + positionInRow; break;		// A1 - A5
 		case(1): number = "B" + positionInRow; break;
 		case(2): number = "C" + positionInRow; break;
-		case(3): number = "D" + positionInRow; break;
+		case(3): number = "E" + positionInRow; break;		// E1 - E5 is electric vehicles
 		case(4): number = "M" + positionInRow; break;		// M1 - M5 is motorcycle/compact parking
 		default: System.out.println("Error: Invalid parking number");
 		}
 		
-		if (row == 4) { type = "COMPACT"; }
+		if (row == 3) { type = "ELECTRIC"; }
+		else if (row == 4) { type = "COMPACT"; }
 		else { type = "STANDARD"; }
 		
 		isOccupied = false;

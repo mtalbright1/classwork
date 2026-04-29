@@ -21,9 +21,9 @@ public class ParkingSpot {
 		default: System.out.println("Error: Invalid parking number");
 		}
 		
-		if (row == 3) { type = "ELECTRIC"; }
-		else if (row == 4) { type = "COMPACT"; }
-		else { type = "STANDARD"; }
+		if (row == 3) { type.equals("ELECTRIC"); }
+		else if (row == 4) { type.equals("COMPACT"); }
+		else { type.equals("STANDARD"); }
 		
 		isOccupied = false;
 		occupant = null;

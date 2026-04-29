@@ -45,12 +45,12 @@ public class ParkingDemo {
 			case(3):
 				String currentDemand = smartLot.calculateDemand();
 				System.out.println("--- CURRENT RATES ---");
-				if (currentDemand == "HIGH") {
+				if (currentDemand.equals("HIGH")) {
 					System.out.printf("Standard: %f.2\n", 5*1.5);
 					System.out.printf("Electric: %f.2\n", 7*1.5*0.7);
 					System.out.printf("Compact: %f.2\n", 5*1.5*0.5);
 				}
-				else if (currentDemand == "LOW") {
+				else if (currentDemand.equals("LOW")) {
 					System.out.printf("Standard: %f.2\n", 5*0.7);
 					System.out.printf("Electric: %f.2\n", 7*0.7*0.7);
 					System.out.printf("Compact: %f.2\n", 5*0.7*0.5);
@@ -61,6 +61,15 @@ public class ParkingDemo {
 					System.out.printf("Compact: %f.2\n", 5*0.5);
 				}
 				break;
+			case(4):
+				int[] occupancy = smartLot.getOccupancy();
+				System.out.print("--- LOT OCCUPANCY ---\n" + 
+								 "Standard: " + occupancy[0] + "/15\n" +
+								 "Electric: " + occupancy[1] + "/5\n" +
+								 "Compact: " + occupancy[2] + "/5\n");
+				break;
+			case(5):
+				
 			}
 		}
 		
@@ -73,7 +82,7 @@ public class ParkingDemo {
 			
 			break;
 		case(2):		// Motorcycle
-		
+			
 			break;
 		case(3):		// Electric Vehicle
 			
@@ -93,5 +102,6 @@ public class ParkingDemo {
 		smartLot.removeVehicle(exitingVehicle);
 		System.out.println("Spot " + spot.getNumber() + " is now available.");
 	}
+	
 	
 }

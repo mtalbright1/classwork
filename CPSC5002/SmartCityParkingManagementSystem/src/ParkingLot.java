@@ -89,4 +89,18 @@ public class ParkingLot {
 		else if (ratio < 0.3) { return "LOW"; }
 		else { return "STANDARD"; }
 	}
+	
+	public int[] getOccupancy() {
+		int[] occupancy = new int[3];
+		
+		for (ParkingSpot i : reservations.values()) {
+			if (i.getIsOccupied()) {
+				if (i.getType().equals("STANDARD")) { occupancy[0]++; }
+				else if (i.getType().equals("ELECTRIC")) { occupancy[1]++; }
+				else if (i.getType().equals("COMPACT")) { occupancy[2]++; }
+			}
+		}
+		
+		return occupancy;
+	}
 }

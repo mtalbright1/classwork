@@ -24,17 +24,17 @@ public class ElectricVehicle extends Vehicle {
 		System.out.printf("EV discount (-30%): -$$f.2\n", fee*0.3);
 		fee *= 0.7;		// 30% electric vehicle discount
 		
-		if (assignedSpot.getType() == "ELECTRIC") {
+		if (assignedSpot.getType().equals("ELECTRIC")) {
 			double chargingFee = 2.00 * elapsed;
 			System.out.printf("Charging fee: $2.00 x %f.2 = $%f.2", elapsed, chargingFee);
 			fee += chargingFee;
 		}
 		
-		if (demand == "HIGH") {		// demand adjusted pricing
+		if (demand.equals("HIGH")) {		// demand adjusted pricing
 			System.out.printf("Demand adjusted pricing (+50%): +$%f.2\n", fee*0.5);
 			fee *= 1.5;
 		}
-		else if (demand == "LOW") {
+		else if (demand.equals("LOW")) {
 			System.out.printf("Demand adjusted pricing (-30%): -$%f.2\n", fee*0.3);
 			fee *= 0.7;
 		}

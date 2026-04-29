@@ -21,16 +21,16 @@ public class Motorcycle extends Vehicle {
 		System.out.print("Rate calculation: \n" + 
 						 "Base rate: $5.00 x " + elapsed + " = $" + fee + "\n");
 		
-		if (assignedSpot.getType() == "COMPACT") {
+		if (assignedSpot.getType().equals("COMPACT")) {
 			System.out.printf("Motorcycle discount (-50%): -$$f.2\n", fee*0.5);
 			fee *= 0.5;		// 50% motorcycle discount if in compact spot
 		}
 		
-		if (demand == "HIGH") {		// demand adjusted pricing
+		if (demand.equals("HIGH")) {		// demand adjusted pricing
 			System.out.printf("Demand adjusted pricing (+50%): +$%f.2\n", fee*0.5);
 			fee *= 1.5;
 		}
-		else if (demand == "LOW") {
+		else if (demand.equals("LOW")) {
 			System.out.printf("Demand adjusted pricing (-30%): -$%f.2\n", fee*0.3);
 			fee *= 0.7;
 		}
